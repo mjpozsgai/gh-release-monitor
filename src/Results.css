@@ -1,0 +1,164 @@
+.Results-body{
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    width: 80vw;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.Results-list-container{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding-bottom: 3%;
+
+
+}
+
+.Results-details-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding-bottom: 3%;
+
+}
+
+.Results-body h1{
+    color: black;
+    font-size: 26px;
+    margin: 1vh 0 0 0;
+}
+
+.Results-details{
+    overflow: scroll;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+
+
+}
+
+.Results-list{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    border-top: 1px solid #dddddd;
+    border-bottom:  1px solid #dddddd;
+
+}
+
+
+#list_item {
+    display: flex;
+    min-height: fit-content;
+    flex-direction: column;
+    margin: 0 1px;
+    border-bottom: 1px solid #dddddd;
+    background-color: white;
+    padding: 4% 0;
+}
+
+
+
+#list_item:hover{
+    box-shadow: inset 0px 0px 0 5px var(--accent-blue);
+    cursor: pointer;
+}
+#sub{
+    margin-bottom: 2%;
+}
+#repo-name{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.Search-results{
+    background-color: white;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+#search-list-repo {
+    display: flex;
+    justify-content: center;
+    min-height: 75px;
+    height: fit-content;
+    margin: 0 1px;
+    width: 100%;
+    flex-direction: column;
+    padding: 2% 0;
+    align-items: center;
+    box-shadow: 0 -1px 0 0 #dddddd;
+}
+
+#search-list-repo:hover{
+    box-shadow: inset 0px 0px 0 5px var(--accent-blue);
+    cursor: pointer;
+}
+
+#release-tag{
+    font-weight: 400;
+}
+
+#new-alert{
+    margin: 2% auto;
+    width: 30%;
+    padding: 5px;
+    color: white;
+    background-color: #09843c;
+    border-radius: 5px;
+    border: none;
+}
+
+#Name{
+    font-weight: 600;
+    font-size: 26px;
+    margin: 2%;
+}
+
+#Name::after{
+    content: "";
+    width: 85px;
+    display: block;
+    border-bottom: 5px solid var(--accent-blue);
+    height: 5px;
+    z-index: 20;
+    justify-self: center;
+    margin: 0 auto;
+}
+
+
+#Date{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#Date::before{
+    content: "Published on ";
+    position: relative;
+    left: 0;
+}
+
+#Description{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 1% 10%;
+}
+
+#Notes{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin: 1% 4%;
+    border: 4px solid var(--accent-blue);
+    border-radius: 4px;
+    padding: 4%;
+    background-color: whitesmoke;
+}
+

@@ -5,6 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--navy-background);
+
+}
+
+:root{
+  --accent-blue: #1307ab;
+  --button-green: #09843c;
+  --navy-background: #061a39;
 }
 
 code {
